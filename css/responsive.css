@@ -1,0 +1,192 @@
+/* ========== TABLET - 1024px ========== */
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: flex;
+    }
+
+    .text-hero {
+        width: 80%;
+    }
+
+    .brand img {
+        width: 280px;
+    }
+
+    .grid-cars {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .grid-features {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .menu-footer ul {
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+}
+
+/* ========== MOBILE - 768px ========== */
+@media (max-width: 768px) {
+    /* Hero */
+    .hero {
+        padding: 40px 0;
+    }
+
+    .hero .container-flex {
+        height: auto;
+        gap: 40px;
+    }
+
+    .text-hero {
+        width: 100%;
+    }
+
+    .brand img {
+        width: 220px;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .hero-btns {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .btn-primary {
+        width: 100%;
+    }
+
+    .grid-features {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .form {
+        grid-template-columns: 1fr;
+    }
+
+    .full-banner {
+        height: 40vh;
+        padding: 40px 20px;
+    }
+
+    .full-banner h4 {
+        font-size: 24px;
+        letter-spacing: 8px;
+    }
+
+    .btn-banner {
+        flex-direction: column;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .text-block {
+        width: 85%;
+    }
+
+    .menu-footer ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+/* ========== MOBILE SMALL - 480px ========== */
+@media (max-width: 480px) {
+
+    .main-header {
+        padding: 20px 0;
+    }
+
+    .logo img {
+        width: 80px;
+    }
+
+    .brand img {
+        width: 180px;
+    }
+
+    .hero h1 {
+        font-size: 20px;
+    }
+
+    .hero p {
+        font-size: 12px;
+    }
+
+    .btn-primary {
+        padding: 12px 40px;
+        font-size: 11px;
+    }
+
+    .grid-cars {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    h2.car-model {
+        font-size: 11px;
+        letter-spacing: 6px;
+    }
+
+    h3 {
+        font-size: 12px;
+        letter-spacing: 6px;
+    }
+
+    .full-banner {
+        height: 35vh;
+    }
+
+    .full-banner h4 {
+        font-size: 18px;
+        letter-spacing: 5px;
+    }
+
+    .btn {
+        padding: 12px 30px;
+        font-size: 9px;
+    }
+
+    .contact-form {
+        padding: 50px 0;
+    }
+
+    .contact-form h4 {
+        letter-spacing: 6px;
+    }
+
+    .item-form input {
+        height: 44px;
+        font-size: 14px;
+    }
+
+    .text-block {
+        width: 95%;
+    }
+
+    .bottom-text p {
+        font-size: 11px;
+    }
+}
