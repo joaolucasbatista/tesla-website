@@ -97,8 +97,7 @@ Dark mode toggle
 
 Suporte a múltiplos idiomas
 
-👨‍💻 Autor
-Desenvolvido com ⚡ por João Lucas Batista
+Desenvolvido por: João Lucas Batista
 
 📝 Licença
 Este projeto é um estudo pessoal e não possui afiliação oficial com a Tesla, Inc. Todos os direitos das marcas e logos pertencem à Tesla.
